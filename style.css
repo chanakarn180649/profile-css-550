@@ -164,6 +164,11 @@ body {
   font-size: 24px;
 }
 @media (max-width: 768px) {
+.skill, .skill0 {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
 .card {
     width: 100%;
     margin: 0 0 16px 0;
@@ -208,5 +213,6 @@ body {
   padding: 20px;
 
 }
+
 
 
