@@ -164,7 +164,7 @@ body {
   font-size: 24px;
 }
 @media (max-width: 768px) {
-.skill, .skill0 {
+.skill, .skill0, .profile-card {
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
@@ -213,6 +213,7 @@ body {
   padding: 20px;
 
 }
+
 
 
 
