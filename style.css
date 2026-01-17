@@ -157,6 +157,8 @@ body {
 }
 @media (max-width: 768px) {
 .card {
+    width: 100%;
+    margin: 0 0 16px 0;
     padding: 16px;
 }
 .card img {
@@ -193,4 +195,5 @@ body {
   background: #333;
   color: white;
   padding: 20px;
+
 }
