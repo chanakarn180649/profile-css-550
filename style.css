@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.7;            
+    background-color: #ffd5a5; 
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.profile-card {
+    max-width: 800px;          
+    margin: 0px auto;         
+    padding: 55px;             
+    
+    background-color: #fffd83;
+    border-radius: 80px;       
+    box-shadow: 0 10px 20px rgba(121, 59, 1, 0.651); 
+
+    text-align: center;
+    display: flex;
+    align-items: flex-start; 
+    gap: 80px;               
+}
+.profile-card:hover {        
+  transform: translateY(-3px); 
+
+}
+
+.sec{
+  max-width: 1000px;          
+    margin: 0px auto;         
+    padding: 25px;             
+    
+    background-color: #ffc16f;
+    border-radius: 40px;       
+    box-shadow: 0 10px 20px rgba(202, 202, 202, 0.651); 
+
+    gap: 80px;          
+}
+.profile-picture {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+    overflow: hidden;
+}
+#title {
+  font-size: 67px;              
+  font-weight: 800;             
+  color: #000274;
+  background-color: #ffbb00;
+  margin-bottom: 10px;
+  padding: 0px 15px;
+}
+.title2 {
+  font-size: 35px;              
+  font-weight: 700;             
+  color: #744500;
+}
+.subtable{
+    max-width: 150px;
+    font-size: 26px;             
+    color: #744500;
+}
+.subtitle{
+    max-width: 180px;
+    font-size: 26px;             
+    color: #ffe600;
+    background-color: #744500;
+     border-radius: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sub{
+    max-width: 180px;
+    font-size: 26px;             
+    color: #ffe600;
+    background-color: #744500;
+     border-radius: 300px;
+    text-align: center;
+}
+.message{
+    font-size: 22px;
+}
+.contact{
+  font-size: 30px;
+  background-color: #f9ffac;
+  color: #ff6600;              
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border: 10px solid #ffd000;
+  border-radius: 130px;
+  transition: 
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+    margin-left: 20px;
+}
+
+.contact:hover {
+  background-color: #660000;   
+  color: #b1ccff;              
+  transform: translateY(-2px); 
+  border: 10px solid #ffd4d4;
+
+}
+.contact2{
+  background-color: #f9ffac;
+  color: #ff6600;              
+  text-decoration: none;
+  font-weight: 550;
+  padding: 6px 20px;
+  border: 5px solid #d35f00;
+  border-radius: 130px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.contact2:hover {        
+  transform: translateY(-5px); 
+
+}
+.skills {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;              
+  gap: 18px;                    
+}
+
+.skill {
+  flex: 0 0 calc(50% - 12px);
+  padding: 20px 50px;
+  background-color: #fffcde;
+  border-radius: 20px;
+  white-space: nowrap;          
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+.skill0 {
+  flex: 0 0 calc(50% - 12px);
+  padding: 0.5px 25px;
+  background-color: #ffad60;
+  white-space: nowrap;          
+}
+@media (max-width: 768px) {
+.card {
+    padding: 16px;
+}
+.card img {
+    max-width: 100%;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+.card p {
+    font-size: 14px;
+}
+
+.layout {
+    flex-direction: column;
+}
+}
+
+.site{
+  margin-top: 40px;
+  padding: 15px 0;
+
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+}
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #333;
+  color: white;
+  padding: 20px;
+}
